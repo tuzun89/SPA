@@ -13,7 +13,7 @@ function previousSlide() {
 function goToSlide(n) {
     slides[currentSlide].className = 'slide';
     currentSlide = (n+slides.length)%slides.length;
-    slides[currentSlide].className = 'slide showing';
+    slides[currentSlide].className = 'slide_showing';
 }
 
 var playing = true;
