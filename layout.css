@@ -14,12 +14,7 @@
     height: 100%;
     opacity: 0;
     z-index: 1;
-    font-size: 40px;
-    padding: 40px;
-    box-sizing: border-box;
-    background: #333;
-    color: #fff;
-
+    
     -webkit-transition: opacity 1s;
     -moz-transition: opacity 1s;
     -o-transition: opacity 1s;
@@ -29,6 +24,14 @@
 .showing {
     opacity: 1;
     z-index: 2;
+}
+
+.slide {
+    font-size: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
 }
 
 .slide:nth-of-type(1) {
